@@ -560,7 +560,7 @@ a {
     background-color: #31d0aa;
 }
 
-.footer-social-media {
+.footer-social-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -643,6 +643,9 @@ a {
     fill: #ffffff;
     margin-left: 16px;
 }
+
+
+
 
 .backdrop {
     width: 100%;
