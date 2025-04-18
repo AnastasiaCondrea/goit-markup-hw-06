@@ -428,8 +428,8 @@ a {
     transform: translateY(0);
 }
 
-.our-portfolio-item:hover .portfolio-owerlay-text,
-.our-portfolio-item:focus .portfolio-owerlay-text {
+.portfolio-item:hover .portfolio-owerlay-text,
+.portfolio-item:focus .portfolio-owerlay-text {
     transform: translateY(0);
     background-color: #4d5ae5;
 }
