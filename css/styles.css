@@ -465,14 +465,24 @@ color: #404bbf;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url("../images/background.jpg");
+        url("../images/people-office/people-office\ 1-min.jpg 1x " );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+@media (min-resolution: 2x){
+    .hero-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office/people-office\ 1@2x.jpg 2x ");
+    }
+}
+
+
 @media screen and (min-width: 768px) {
     .hero-section {
         padding: 112px 0;
+        
     }
 }
 
