@@ -401,6 +401,12 @@ height: 100%;
     margin-bottom: 24px;
 }
 
+
+
+
+
+
+
 .mobile-menu-item:not(:last-child) {
     margin-bottom: 40px;
 }
@@ -413,7 +419,7 @@ height: 100%;
     color: #2e2f42;
 }
 
-.mob-menu-link.active {
+.mobile-menu-link.active {
     color: #404bbf;
 }
 
