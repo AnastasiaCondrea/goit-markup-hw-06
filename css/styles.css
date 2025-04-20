@@ -1062,19 +1062,23 @@ padding: 100px 0;
 
 
 
-
+.footer-container{
+margin: 0 auto;
+width: 320px;
+padding: 0 16px;
+}
 @media screen and (min-width: 768px) {
 .footer-container {   
 display: flex;
 flex-wrap: wrap;
-width: 528px
-/* 496+16+16 */
+width: 768px;
+padding: 0 108px;
 }
 }
 @media screen and (min-width: 1158px){
-.footer-container {
-width: 1157px
-/* 1125+16+16 */
+.footer-container {   
+width: 1158px;
+padding: 0 15px;
 }
 }
 
@@ -1145,6 +1149,11 @@ width: 264px;
 margin-bottom: 72px;    
 justify-content: center;
 align-items: center;
+}
+@media screen and (min-width: 768px){
+.footer-social-wrap{
+justify-content: left;
+}   
 }
 @media screen and (min-width: 1158px) {
 .footer-social-wrap {
